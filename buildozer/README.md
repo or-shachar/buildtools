@@ -11,19 +11,19 @@ standard commands.
 
 
 ## Installation
-0. Verify you have buildozer sources on go path:
+1. Verify you have buildozer sources on go path:
 ```bash
 go get -u github.com/bazelbuild/buildtools/buildozer
 ```
 
-1. Change directory to the buildifier/buildozer
+2. Change directory to the buildifier/buildozer
 
 ```bash
 gopath=$(go env GOPATH)
 cd $gopath/src/github.com/bazelbuild/buildtools/buildozer
 ```
 
-2. Install
+3. Install
 
 ```bash
 go install
